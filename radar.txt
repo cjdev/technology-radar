@@ -2,22 +2,23 @@
 cake pattern
     status: outoffavor
     notes: There are better ways to do "dependency injection".
-
+	
 XML-RPC/SOAP
     status: outoffavor
-    tags:network-api
+    tags:api
 
-REST (RMM Level 1)
+REST (RMM Level 1)	
     status: outoffavor
-    tags: REST, network-api
+    tags: REST, api
 
 REST (RMM Level 2)
     status: accepted
-    tags: REST, network-api
+    tags: REST, api
 
 REST (RMM Level 3)
-    status: accepted
-    tags: REST, network-api
+    status: outoffavor
+    tags: REST, api
+	notes: If you want to provide the ability to traverse related resources, use GraphQL.
 
 JS Template Observer
     status: outoffavor
@@ -101,6 +102,16 @@ one unit testing library per application
 
 [Languages and Frameworks/Libraries]
 
+Swagger
+	status: experimental
+	tags: api, REST
+	notes: Strong candidate for standard REST documentation/specification (to replace RestSpec)
+	
+RestSpec
+	status: accepted
+	tags: api, REST
+	notes: House standard for documenting and testing REST APIs.  Try Swagger for anything new or inteded for public release.
+	
 jqplot
    status: outoffavor
    tags: javascript, visualization
@@ -123,8 +134,8 @@ redux
   tags: javascript
 
 graphql
-  status: experimental
-  notes: [sponsor: jemmer]
+  status: preferred
+  tags: api
 
 tcomb
    status: outoffavor
@@ -133,11 +144,11 @@ tcomb
 
 XML (for REST representations)
     status: outoffavor
-    tags: network-api, REST
+    tags: api, REST
 
 JSON (for REST representations)
     status: preferred
-    tags: network-api, REST
+    tags: api, REST
 
 lunr
     status: accepted
@@ -592,7 +603,7 @@ kubernetes
 
 kafka
    status: accepted
-   tags: data-tier
+   tags: data-tier, api
    notes: replaces flume, custom log transferring/consumption (e.g. consumelog), storing & transporting event streams
 
 kafka-rx
