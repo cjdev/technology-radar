@@ -2,12 +2,12 @@
 cake pattern
     status: outoffavor
     notes: There are better ways to do "dependency injection".
-	
+
 XML-RPC/SOAP
     status: outoffavor
     tags:api
 
-REST (RMM Level 1)	
+REST (RMM Level 1)
     status: outoffavor
     tags: REST, api
 
@@ -106,12 +106,12 @@ Swagger
 	status: experimental
 	tags: api, REST
 	notes: Strong candidate for standard REST documentation/specification (to replace RestSpec)
-	
+
 RestSpec
 	status: accepted
 	tags: api, REST
 	notes: House standard for documenting and testing REST APIs.  Try Swagger for anything new or inteded for public release.
-	
+
 jqplot
    status: outoffavor
    tags: javascript, visualization
@@ -446,17 +446,17 @@ purescript (AWS Lambda)
     status: experimental
     tags: languages
     notes: [sponsor: empire]
-    
+
 purescript (Frontend)
     status: experimental
     tags: languages
     notes: [sponsor: gwiley]
-    
+
 OWASP java-html-sanitizer - For sanitizing user input
     status: experimental
-    tags: security  
-    notes: [sponser: dr0n]    
-  
+    tags: security
+    notes: [sponser: dr0n]
+
 [Tools]
 
 qunit
@@ -692,4 +692,11 @@ elastic search - for full-text indexing
 jvm - for production applications
     status: preferred
     tags: jvm, languages
+
+rust
+    status: experimental
+    tags: languages
+    notes: [sponsor: gwiley]
+
+
 
