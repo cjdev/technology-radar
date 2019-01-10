@@ -703,3 +703,7 @@ kotlin
     tags: languages
     notes: [sponsor: tracking]
 
+typescript
+    status: experimental
+    tags: languages
+    notes: [sponsor: khoberg]
