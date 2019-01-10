@@ -457,6 +457,21 @@ OWASP java-html-sanitizer - For sanitizing user input
     tags: security
     notes: [sponser: dr0n]
 
+rust
+    status: experimental
+    tags: languages
+    notes: [sponsor: gwiley]
+
+Kotlin (Backend)
+    status: experimental
+    tags: languages
+    notes: [sponsor: tracking]
+
+Typescript
+    status: experimental
+    tags: languages
+    notes: [sponsor: khoberg]
+
 [Tools]
 
 qunit
@@ -693,17 +708,3 @@ jvm - for production applications
     status: preferred
     tags: jvm, languages
 
-rust
-    status: experimental
-    tags: languages
-    notes: [sponsor: gwiley]
-
-kotlin
-    status: experimental
-    tags: languages
-    notes: [sponsor: tracking]
-
-typescript
-    status: experimental
-    tags: languages
-    notes: [sponsor: khoberg]
