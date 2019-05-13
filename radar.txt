@@ -68,11 +68,11 @@ async-io
 rdbms
     status: accepted
 
-containerless
+standalone, self-contained apps
     status: preferred
     tags: jvm
 
-containers
+JEE containers
     status: outoffavor
     tags: jvm
 
