@@ -467,6 +467,10 @@ Kotlin (Backend)
     tags: languages
     notes: [sponsor: tracking]
 
+Arrow (Functional Library for Kotlin)
+    status: accepted
+    tags: library, kotlin, jvm
+
 Typescript
     status: experimental
     tags: languages
