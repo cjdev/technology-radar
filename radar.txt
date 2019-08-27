@@ -442,16 +442,6 @@ styled-components
     status: accepted
     tags: javascript, css
 
-purescript (AWS Lambda)
-    status: experimental
-    tags: languages
-    notes: [sponsor: empire]
-
-purescript (Frontend)
-    status: experimental
-    tags: languages
-    notes: [sponsor: gwiley]
-
 OWASP java-html-sanitizer - For sanitizing user input
     status: experimental
     tags: security
