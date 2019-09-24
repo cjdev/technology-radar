@@ -466,6 +466,11 @@ Typescript
     tags: languages
     notes: [sponsor: khoberg]
 
+AWS CDK for Cloudformation
+    status: experimental
+    tags: javascript, typescript, aws, cloudformation
+    notes: [sponsor: areeves]
+
 [Tools]
 
 qunit
