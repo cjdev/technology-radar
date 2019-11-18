@@ -352,10 +352,6 @@ jetty-as-a-library
     status: accepted
     tags: jvm
 
-ObjectiveC
-    status: accepted
-    tags: languages
-
 mahout
     status: accepted
     tags: jvm, machine learning
