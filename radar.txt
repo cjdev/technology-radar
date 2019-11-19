@@ -103,14 +103,14 @@ one unit testing library per application
 [Languages and Frameworks/Libraries]
 
 Swagger
-	status: experimental
+	status: accepted
 	tags: api, REST
 	notes: Strong candidate for standard REST documentation/specification (to replace RestSpec)
 
 RestSpec
 	status: accepted
 	tags: api, REST
-	notes: House standard for documenting and testing REST APIs.  Try Swagger for anything new or inteded for public release.
+	notes: House standard for documenting and testing REST APIs.  Try Swagger for anything new or intended for public release.
 
 jqplot
    status: outoffavor
