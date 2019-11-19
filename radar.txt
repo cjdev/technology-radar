@@ -438,11 +438,6 @@ styled-components
     status: accepted
     tags: javascript, css
 
-OWASP java-html-sanitizer - For sanitizing user input
-    status: experimental
-    tags: security
-    notes: [sponser: dr0n]
-
 rust
     status: experimental
     tags: languages
@@ -702,4 +697,3 @@ elastic search - for full-text indexing
 jvm - for production applications
     status: preferred
     tags: jvm, languages
-
