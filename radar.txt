@@ -443,10 +443,9 @@ rust
     tags: languages
     notes: [sponsor: gwiley]
 
-Kotlin (Backend)
-    status: experimental
-    tags: languages
-    notes: [sponsor: tracking]
+Kotlin
+    status: accepted
+    tags: languages, kotlin
 
 Arrow (Functional Library for Kotlin)
     status: accepted
