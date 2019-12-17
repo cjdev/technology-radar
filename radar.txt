@@ -452,9 +452,8 @@ Arrow (Functional Library for Kotlin)
     tags: library, kotlin, jvm
 
 Typescript
-    status: experimental
+    status: accepted
     tags: languages
-    notes: [sponsor: khoberg]
 
 AWS CDK for Cloudformation
     status: experimental
