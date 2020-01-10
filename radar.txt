@@ -416,6 +416,11 @@ spring-security
     status: accepted
     tags: jvm
 
+go-lang
+    status: experimental 
+    tags: languages
+    notes: [sponsor: dwierenga, calbright]
+
 python (for tooling)
     status: accepted
     tags: languages
