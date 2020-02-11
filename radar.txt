@@ -482,6 +482,16 @@ mochajs
 enzyme
     status: accepted
     tags: javascript, test
+    
+react-testing-library
+    status: experimental
+    tags: javascript, test
+    notes: [sponsor: attribution, elbo]
+    
+cypress
+    status: experimental
+    tags: javascript, test
+    notes: [sponsor: elbo]
 
 webpack
     status: accepted
