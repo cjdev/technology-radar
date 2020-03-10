@@ -696,7 +696,7 @@ flume
 kestrel
     status: accepted
 
-nodejs - for tools
+nodejs
     status: accepted
     tags: javascript
 
