@@ -465,6 +465,10 @@ AWS CDK for Cloudformation
     tags: javascript, typescript, aws, cloudformation
     notes: [sponsor: areeves]
 
+Apollo GraphQL (client and server - spec compliant)
+    status: accepted
+    tags: javascript, graphql, library
+
 [Tools]
 
 qunit
