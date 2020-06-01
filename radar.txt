@@ -633,6 +633,11 @@ kafka-rx
    tags: data-tier, reactive
    notes: http://github.com/cjdev/kafka-rx
 
+clickhouse
+    status: experimental
+    tags: analytics, column-oriented databse, olap
+    notes: [sponsor: Insights Squad]
+
 solr
     status: outoffavor
     tags: full-text search
