@@ -535,7 +535,7 @@ bower
     notes: we're more interested in using npm
 
 selenium
-    status: accepted
+    status: outoffavor
     tags: test
 
 docker
@@ -557,9 +557,6 @@ graphite
 kibana
     status: accepted
 
-taxi
-    status: accepted
-
 ansible
     status: accepted
 
@@ -571,9 +568,6 @@ ganglia
     tags: data-tier
 
 logstash
-    status: accepted
-
-warden
     status: accepted
 
 jenkins - for CI
@@ -703,7 +697,7 @@ flume
     tags: data-tier
 
 kestrel
-    status: accepted
+    status: outoffavor
 
 nodejs
     status: accepted
