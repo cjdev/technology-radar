@@ -185,7 +185,7 @@ joyride js
     status: outoffavor
     tags: javascript
 
-sqoop-as-a-library
+sqoop (as a library)
     status: outoffavor
 
 hibernate-search
@@ -320,13 +320,9 @@ javascript
     status: accepted
     tags: javascript, languages
 
-groovy (for-testing)
+groovy
     status: outoffavor
     tags: test, groovy, jvm, languages
-
-groovy (for-production)
-    status: outoffavor
-    tags: groovy, jvm, languages
 
 spock
     status: outoffavor
@@ -348,7 +344,7 @@ easymock
     status: accepted
     tags: test, jvm
 
-jetty-as-a-library
+jetty (as a library)
     status: accepted
     tags: jvm
 
@@ -544,7 +540,7 @@ docker
 vagrant
     status: accepted
 
-github-for-open-source-project-hosting
+github (for open source project hosting)
     status: accepted
     tags: scm
 
@@ -570,7 +566,7 @@ ganglia
 logstash
     status: accepted
 
-jenkins - for CI
+jenkins (for CI)
     status: preferred
     tags: build
 
@@ -599,7 +595,7 @@ maven3
 simon
     status: preferred
 
-speedyG for e2e execution in the CD pipeline
+speedyG (for e2e execution in the CD pipeline)
     status: preferred
     tags: test
 
@@ -687,7 +683,7 @@ hdfs
     status: accepted
     tags: data-tier
 
-hadoop - for distributed map/reduce
+hadoop (for distributed map/reduce)
     status: outoffavor
     tags: data-tier
     notes: deprecated in favor of spark
@@ -706,10 +702,10 @@ nodejs
 zookeeper
     status: accepted
 
-elastic search - for full-text indexing
+elastic search (for full-text indexing)
     status: preferred
     tags:data-tier,full-text search
 
-jvm - for production applications
+jvm (for production applications)
     status: preferred
     tags: jvm, languages
