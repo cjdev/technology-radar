@@ -628,6 +628,11 @@ clickhouse
     tags: analytics, column-oriented databse, olap
     notes: [sponsor: Insights Squad]
 
+rabbitmq
+    status: experimental
+    tags: message broker, message queue, asynchronous messaging
+    notes: [sponsor: Ad Systems Squad]
+
 solr
     status: outoffavor
     tags: full-text search
