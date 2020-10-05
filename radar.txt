@@ -374,8 +374,18 @@ java7
     notes: java7 and earlier code & bytecode is acceptable where interoperability outside of CJ is a requirement
 
 java8
+    status: outoffavor
+    tags: jvm, languages
+    notes: don't change main without checking with the department
+
+java11
     status: accepted
     tags: jvm, languages
+
+java15
+    status: accepted
+    tags: jvm, languages
+    notes: keep non-lts versions updated every 6 months
 
 hamcrest-matchers
     status: accepted
@@ -413,7 +423,7 @@ spring-security
     tags: jvm
 
 go-lang
-    status: experimental 
+    status: experimental
     tags: languages
     notes: [sponsor: dwierenga, calbright]
 
@@ -482,12 +492,12 @@ mochajs
 enzyme
     status: accepted
     tags: javascript, test
-    
+
 react-testing-library
     status: experimental
     tags: javascript, test
     notes: [sponsor: attribution, elbo]
-    
+
 cypress
     status: experimental
     tags: javascript, test
