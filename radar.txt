@@ -629,7 +629,7 @@ kafka
    notes: replaces flume, custom log transferring/consumption (e.g. consumelog), storing & transporting event streams
 
 kafka-rx
-   status: accepted
+   status: outoffavor
    tags: data-tier, reactive
    notes: http://github.com/cjdev/kafka-rx
 
