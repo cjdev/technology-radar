@@ -1,61 +1,11 @@
 [Techniques]
-cake pattern
-    status: outoffavor
-    notes: There are better ways to do "dependency injection".
-
-XML-RPC/SOAP
-    status: outoffavor
-    tags:api
-
-REST (RMM Level 1)
-    status: outoffavor
-    tags: REST, api
-
-REST (RMM Level 2)
+REST
     status: accepted
     tags: REST, api
-
-REST (RMM Level 3)
-    status: outoffavor
-    tags: REST, api
-	notes: If you want to provide the ability to traverse related resources, use GraphQL.
-
-JS Template Observer
-    status: outoffavor
-    tags: javascript
-
-"NaN style" JS Components
-    status: outoffavor
-    tags: javascript
-    notes: A style of component-oriented js UI development, introduced by team NaN.
-
-single responsibility principle
-    status: preferred
-
-"mockist" testing
-    status: accepted
-    tags: test
 
 fakes over mocks
     status: accepted
     tags: test
-
-configuration-as-a-service
-    status: accepted
-
-object-oriented programming
-    status: accepted
-    tags: oop
-
-functional
-    status: accepted
-
-machine learning
-    status: accepted
-
-promises over callbacks
-    status: accepted
-    tags: javascript
 
 branch-by-abstraction
     status: accepted
@@ -63,25 +13,8 @@ branch-by-abstraction
 feature-flags
     status: accepted
 
-async-io
-    status: accepted
-
-rdbms
-    status: accepted
-
-standalone, self-contained apps
-    status: preferred
-    tags: jvm
-
-JEE containers
-    status: outoffavor
-    tags: jvm
-
 design-by-contract
     status: accepted
-
-automation
-    status: preferred
 
 continuous-delivery
     status: preferred
@@ -90,15 +23,6 @@ continuous-delivery
 TDD (test-first)
     status: preferred
     tags: test
-
-dependency injection over service locator
-    status: preferred
-
-pair programming
-    status: preferred
-
-one unit testing library per application
-    status: preferred
 
 [Languages and Frameworks/Libraries]
 
@@ -112,108 +36,25 @@ RestSpec
 	tags: api, REST
 	notes: House standard for documenting and testing REST APIs.  Try Swagger for anything new or intended for public release.
 
-jqplot
-   status: outoffavor
-   tags: javascript, visualization
-
-amcharts
-   status: preferred
-   tags: javascript, visualization
-
 spark
    status: accepted
    tags: hadoop, data-tier, jvm, scala, TODO
    notes: TODO discuss moving this to preferred in December
 
-ramda
-  status: accepted
-  tags: javascript
-
-redux
-  status: preferred
-  tags: javascript
-
 graphql
   status: preferred
   tags: api
-
-tcomb
-   status: outoffavor
-   tags: javascript
-   notes: lost interest
-
-XML (for REST representations)
-    status: outoffavor
-    tags: api, REST
-
-JSON (for REST representations)
-    status: preferred
-    tags: api, REST
-
-lunr
-    status: accepted
-    tags: javascript, full-text search
-
-mustache
-    status: outoffavor
-    tags: javascript
-
-squire
-    status: outoffavor
-    tags: javascript, test
-
-play
-    status: outoffavor
-    tags: jvm
 
 jsp
     status: outoffavor
     tags: templating, jvm
 
-ojb
-    status: outoffavor
-    tags: jvm, data-tier
-
-flex
-    status: outoffavor
-
 pl/sql
     status: outoffavor
     tags: languages, data-tier
 
-joyride js
-    status: outoffavor
-    tags: javascript
-
-sqoop (as a library)
-    status: outoffavor
-
-hibernate-search
-    status: outoffavor
-    tags: jvm, data-tier
-
-raw lucene
-    status: outoffavor
-    tags: jvm, data-tier
-
 struts
     status: outoffavor
-    tags: jvm
-
-xstream
-    status: outoffavor
-    tags: jvm
-
-xml
-    status: outoffavor
-
-pig
-    status: outoffavor
-    tags: jvm, languages, data-tier
-
-grails
-    status: outoffavor
-    tags: groovy
     tags: jvm
 
 perl
@@ -233,84 +74,18 @@ react
     tags: javascript
     notes: our default UI component technology
 
-finatra
-    status: outoffavor
-    tags: jvm
-    notes: finatra is getting too guicy.  prefer httpobjects instead.
-
-angular
-    status: outoffavor
-    tags: javascript
-
 clojure
     status: accepted
     tags: jvm, languages
     notes: [sponsor: insights]
 
-intro.js
-    status: accepted
-    tags: javascript
-
-weka
-    status: accepted
-    tags: machine learning
-
-underscore
-    status: outoffavor
-    tags: javascript
-
-bootstrap-css
-    status: accepted
-    tags: javascript
-
-handlebars
-    status: outoffavor
-    tags: templating, javascript
-
-java6
-    status: outoffavor
-    tags: jvm, languages
-    notes: java6 code & bytecode is acceptable where interoperability outside of CJ is a requirement
-
-backbone-models
-    status: outoffavor
-    tags: javascript
-
-backbone-router
-    status: outoffavor
-    tags: javascript
-
-backbone-views
-    status: outoffavor
-    tags: javascript
-
-sinon
-    status: accepted
-    tags: javascript, test
-
-restclient-js
-    status: accepted
-    tags: javascript, test
-
 httpobjects
     status: accepted
     tags: jvm
 
-hibernate
+hibernate/jpa
     status: accepted
     tags: jvm, data-tier
-
-velocity (for frontend)
-    status: outoffavor
-    tags: templating
-
-velocity (non-frontend)
-    status: accepted
-    tags: templating
-
-akka
-    status: accepted
-    tags: jvm
 
 scala
     status: accepted
@@ -324,97 +99,15 @@ groovy
     status: outoffavor
     tags: test, groovy, jvm, languages
 
-spock
-    status: outoffavor
-    tags: test, groovy, jvm
-
-jmock
-    status: accepted
-    tags: test, jvm
-
-powermock
-    status: outoffavor
-    tags: test, jvm
-
-mockito
-    status: accepted
-    tags: test, jvm
-
-easymock
-    status: accepted
-    tags: test, jvm
-
 jetty (as a library)
     status: accepted
     tags: jvm
 
-mahout
-    status: accepted
-    tags: jvm, machine learning
-
-coffeescript
-    status: outoffavor
-    tags: javascript, languages
-
-yammer metrics
+spring-mvc
     status: accepted
     tags: jvm
 
-jsoup
-    status: accepted
-    tags: jvm
-
-eh-cache
-    status: accepted
-    tags: jvm
-
-java7
-    status: outoffavor
-    tags: jvm, languages
-    notes: java7 and earlier code & bytecode is acceptable where interoperability outside of CJ is a requirement
-
-java8
-    status: outoffavor
-    tags: jvm, languages
-    notes: don't change main without checking with the department
-
-java11
-    status: accepted
-    tags: jvm, languages
-
-java15
-    status: accepted
-    tags: jvm, languages
-    notes: keep non-lts versions updated every 6 months
-
-hamcrest-matchers
-    status: accepted
-    tags: test, jvm
-
-junit
-    status: accepted
-    tags: test, jvm
-
-scalatest
-    status: accepted
-    tags: test, jvm
-
-jackson
-    status: accepted
-    tags: jvm
-
-lift-json
-    status: accepted
-    tags: jvm
-
-jquery-ui
-    status: outoffavor
-
-springmvc
-    status: accepted
-    tags: jvm
-
-spring (dependency-injection)
+spring-ioc
     status: accepted
     tags: jvm
 
@@ -436,15 +129,6 @@ python (machine learning)
     tags: languages
     notes: [sponsor: lhurley]
 
-jquery
-    status: outoffavor
-    tags: javascript
-    note: We believe all uses of jquery can be handled natively or with other accepted libs
-
-require
-    status: outoffavor
-    tags: javascript, build
-
 styled-components
     status: accepted
     tags: javascript, css
@@ -457,10 +141,6 @@ rust
 Kotlin
     status: accepted
     tags: languages, kotlin
-
-Arrow (Functional Library for Kotlin)
-    status: accepted
-    tags: library, kotlin, jvm
 
 Typescript
     status: accepted
@@ -485,10 +165,6 @@ jest
     status: accepted
     tags: javascript, test
 
-mochajs
-    status: accepted
-    tags: javascript, tools, build
-
 enzyme
     status: accepted
     tags: javascript, test
@@ -507,119 +183,15 @@ webpack
     status: accepted
     tags: javascript, bundler
 
-
-gitlab
-    status: accepted
-    tags: scm
-
-gitblit
-    status: outoffavor
-    tags: scm
-
-splunk
-    status: accepted
-
-maven2
-    status: outoffavor
-    tags: build
-
-perforce
-    status: outoffavor
-    tags: scm
-
-stash
-    status: outoffavor
-    tags: scm
-
-gulp
-    status: accepted
-    tags: javascript, build
-
-bower
-    status: outoffavor
-    tags: javascript, build
-    notes: we're more interested in using npm
-
-selenium
-    status: outoffavor
-    tags: test
-
 docker
-    status: accepted
-
-vagrant
-    status: accepted
-
-github (for open source project hosting)
-    status: accepted
-    tags: scm
-
-virtualBox
-    status: accepted
-
-graphite
-    status: accepted
-
-kibana
     status: accepted
 
 ansible
     status: accepted
 
-configurator
-    status: accepted
-
-ganglia
-    status: accepted
-    tags: data-tier
-
-logstash
-    status: accepted
-
-jenkins (for CI)
-    status: preferred
-    tags: build
-
-qunit-mojo
-    status: preferred
-    tags: test, javascript, build
-
-jshint
-    status: outoffavor
-    tags: test, javascript, build
-
-eslint
-    status: preferred
-    tags: lint, javascript
-
-nexus
-    status: preferred
-
-jaws
-    status: preferred
-
-maven3
-    status: preferred
-    tags: build
-
-simon
-    status: preferred
-
-speedyG (for e2e execution in the CD pipeline)
-    status: preferred
-    tags: test
-
-supervisor
-    status: preferred
-
 git
     status: preferred
     tags: scm
-
-kubernetes
-    status: experimental
-    tags: docker, cloud
-    notes: [sponsor: ad systems]
 
 [Platforms (and dbs)]
 
@@ -628,59 +200,13 @@ kafka
    tags: data-tier, api
    notes: replaces flume, custom log transferring/consumption (e.g. consumelog), storing & transporting event streams
 
-kafka-rx
-   status: outoffavor
-   tags: data-tier, reactive
-   notes: http://github.com/cjdev/kafka-rx
-
 clickhouse
     status: experimental
     tags: analytics, column-oriented databse, olap
     notes: [sponsor: Insights Squad]
 
-rabbitmq
-    status: experimental
-    tags: message broker, message queue, asynchronous messaging
-    notes: [sponsor: Ad Systems Squad]
-
-solr
-    status: outoffavor
-    tags: full-text search
-
-oracle text (aka context)
-    status: outoffavor
-    tags: full-text search
-
 mysql
     status: outoffavor
-
-hadoop map-reduce v1
-    status: outoffavor
-    tags: jvm, data-tier
-
-appworx
-    status: outoffavor
-
-J2EE (incl. EJB, JNDI, JMS, ServletAPI)
-    status: outoffavor
-    tags: jvm
-
-activemq
-    status: outoffavor
-    tags: jvm
-
-fiorano
-    status: outoffavor
-    tags: jvm
-
-resin
-    status: outoffavor
-    tags: jvm
-
-hadoop map-reduce v2 ("yarn")
-    status: outoffavor
-    tags: data-tier
-    notes: deprecated in favor of spark
 
 oracle
     status: accepted
@@ -694,33 +220,10 @@ cassandra
     status: accepted
     tags: data-tier
 
-hdfs
-    status: accepted
-    tags: data-tier
-
-hadoop (for distributed map/reduce)
-    status: outoffavor
-    tags: data-tier
-    notes: deprecated in favor of spark
-
-flume
-    status: outoffavor
-    tags: data-tier
-
-kestrel
-    status: outoffavor
-
 nodejs
     status: accepted
     tags: javascript
 
-zookeeper
-    status: accepted
-
-elastic search (for full-text indexing)
+elastic search
     status: preferred
     tags:data-tier,full-text search
-
-jvm (for production applications)
-    status: preferred
-    tags: jvm, languages
